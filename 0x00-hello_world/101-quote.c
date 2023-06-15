@@ -4,7 +4,7 @@
 /**
  * * main - prints exactly that piece of art is useful.
  *  *
- *   * return: 0 on succesful program execution, non-zero value otherwise.
+ *   * return: 1 on succesful program execution, non-zero value otherwise.
  *    **/
 int main(void)
 {
