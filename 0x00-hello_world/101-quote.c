@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * * main - prints exactly that piece of art is useful...
+ * * main - prints exactly that piece of art is useful.
  *  *
- *   * return: ends the program.
+ *   * return: 0 on succesful program execution, non-zero value otherwise.
  *    **/
 int main(void)
 {
