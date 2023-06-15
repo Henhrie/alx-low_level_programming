@@ -2,13 +2,9 @@
 
 /**
  *  * main - Entry point
- *   * *format - Declaration of print f
- *    * const - Declaration of print f
- *     * printf - formatted string to the standard output 
- *      * Return: Ends program
- *       **/
-
-int printf(const char *format, ...);
+ *   *
+ *    * Return: Ends program
+ *     **/
 
 int main(void)
 {
