@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Sucesss) end of program.
- *    **/
-
+ * main - print the size of various types
+ * Return 0 (success)
+**/
 int main(void)
 {
 printf("Size of char: %lu byte(s)\n", sizeof(char));
