@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * * main: prints exactly that piece of art is useful...
- *  * 
+ * * main - prints exactly that piece of art is useful...
+ *  *
  *   * return: ends the program.
  *    **/
 int main(void)
