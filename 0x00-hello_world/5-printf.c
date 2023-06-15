@@ -2,8 +2,8 @@
 
 /**
  *  * main - Entry point
- *   *
- *    *
+ *   * format - Declaration of print f
+ *    * const - Declaration of print f
  *     * Return: Ends program
  *      **/
 
