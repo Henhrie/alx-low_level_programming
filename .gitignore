@@ -1,10 +1,13 @@
 *~
 .#*
 
-# Ignore all files except .c files
-/*
-!.gitignore
-!*.c
+# Ignore all generated files
+*.o
+*.out
+
+# Ignore all .c files except main.c
+*.c
+!main.c
 
 # Exclude specific files
 _putchar.c
