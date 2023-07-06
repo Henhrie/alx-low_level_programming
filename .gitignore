@@ -5,9 +5,7 @@
 *.o
 *.out
 
-# Ignore all .c files except main.c
-*.c
-!main.c
+
 
 # Exclude specific files
 _putchar.c
