@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node_end - adds a node at the end of the linked list.
- * @head: pointer to the first node of the list.
- * @str: string to add.
- * Return: NULL if it fails / starting addr of the list.
+ * add_node_end - adds a node at the end of the linked list
+ * @head: pointer to the first node of the list
+ * @str: string to add
+ * Return: NULL if it fails / starting addr of the list
  */
 
 list_t *add_node_end(list_t **head, const char *str)
@@ -39,10 +39,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	else
 	{
 		
-		/**
-		 * we iterate pointer next addr if its not NULL our temp addr
-		 * points to the next addr or the next node.
-		 */
+/**
+ * we iterate pointer next addr if its not NULL our temp addr
+ * points to the next addr or the next node.
+ */
 
 		while (temp->next != NULL)
 			temp = temp->next;

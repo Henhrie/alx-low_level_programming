@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node - adds a node at the beginning of the linked list.
- * @head: pointer to the first node of the list.
- * @str: string to add to new node in the list.
- * Return: NULL if it fails / start addr of the list.
+ * add_node - adds a node at the beginning of the linked list
+ * @head: pointer to the first node of the list
+ * @str: string to add to new node in the list
+ * Return: NULL if it fails / start addr of the list
  */
 
 list_t *add_node(list_t **head, const char *str)
