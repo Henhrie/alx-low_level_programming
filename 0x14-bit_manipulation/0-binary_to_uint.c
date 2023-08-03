@@ -8,7 +8,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int uint, place;
+	unsigned int uint = 0, place = 1;
 	int n;
 
 	if (!b)
@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 		;
 	n--;
 
-	for (place = 1, uint = 0; n >= 0; n--)
+	for (; n >= 0; n--)
 	{
 		if (b[n] == '0')
 		{
