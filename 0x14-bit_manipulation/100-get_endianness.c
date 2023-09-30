@@ -1,14 +1,15 @@
 #include "main.h"
-
 /**
- * get_endianness - Checks the endianness of the system.
- *
- * Return: 0 if big endian, 1 if little endian.
+ *get_endianness - this function checks foe endianness
+ *Return: 0 if big endian and 1 if little endian
  */
 int get_endianness(void)
 {
-    unsigned int b = 1;
-    char *a = (char *)&b;
+	unsigned int b = 1;
+	char *a = (char *)&b;
 
-    return (*a);
+	if (*a)
+		return (1);
+	else
+		return (0);
 }
