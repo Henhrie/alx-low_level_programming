@@ -20,7 +20,7 @@ While this repository primarily serves as a personal learning journal, I welcome
 
 License
 ---
-This repository is open-source.
+This repository is open-source only and it works.
 Thank you for visiting my C Program Learning Journey repository! I hope you find it helpful and informative. Happy coding!
 
 
