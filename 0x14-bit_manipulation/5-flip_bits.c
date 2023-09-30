@@ -10,15 +10,15 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-    unsigned int nflips = 0;
+unsigned int nflips = 0;
 
-    /* XOR the two numbers to find differing bits and count them. */
-    while (n > 0 || m > 0)
-    {
-        nflips += (n & 1) ^ (m & 1);
-        n >>= 1;
-        m >>= 1;
-    }
+/* XOR the two numbers to find differing bits and count them. */
+while (n > 0 || m > 0)
+{
+nflips += (n & 1) ^ (m & 1);
+n >>= 1;
+m >>= 1;
+}
 
-    return nflips;
+return nflips;
 }
