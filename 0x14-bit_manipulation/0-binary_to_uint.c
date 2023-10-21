@@ -17,8 +17,8 @@ return (0);
 
 for
 { index = 0;
-binary[index]; index++;
-}
+binary[index];
+index++; }
 index--;
 
 for (; index >= 0; index--)
