@@ -20,5 +20,5 @@ n >>= 1;
 m >>= 1;
 }
 
-return nflips;
+return (nflips);
 }
