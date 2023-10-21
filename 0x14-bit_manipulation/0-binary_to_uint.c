@@ -16,7 +16,8 @@ if (!binary)
 return (0);
 
 for
-{ index = 0; binary[index];
+{ index = 0;
+binary[index];
 index++;
 }
 index--;
